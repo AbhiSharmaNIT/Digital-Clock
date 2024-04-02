@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#background{
+    background-image: url("https://i.pinimg.com/736x/b2/05/63/b2056386f21c056c8f29a2a9002f75d4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7px);
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 350px;
+    width: 700px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    box-shadow: 0px 0px 34px 9px;
+}
+
+#demo{
+    color: black;
+    font-size: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 0px 34px 8px black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
